@@ -95,9 +95,11 @@ while True:
 		# box survives the non max suppression
 		index = i[0]
 		box = object_boxes[index]
-		x, y, w, h = box
 		name = classes[predictions[index]]
 		color = class_colors[predictions[index]]
+
+		# position of box around object, do WHATEVER you want with it
+		x, y, w, h = box
 
 		# draw the rectangle
 		cv.rectangle(img, (x, y), (x + w, y + h), color, 3)
