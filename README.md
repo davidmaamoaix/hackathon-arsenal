@@ -1,32 +1,12 @@
 # hackathon-arsenal
 Pedagogic demonstrations on implementations of popular concepts in Hackathons.
 
-This repository provides trivial examples for hackathon participants who are not experienced with certain CS topics in hope of reducing
-the time spent on struggling to implement certain mechanism into their project.
-
-## Quick Links (English)
-__Computer Vision:__
-- Object detection with YOLO
-- Face detection with OpenCV classifier
-- Style transfer with ImageNet
-
-__Natural Language Processing:__
-- Text generation with LSTM
-- Text classification with BERT (via Huggingface)
-
-__Speech/Voice Processing:__
-- 中文文字转语音
-- 中文语音转文字
-
-__Game Development (Unity):__
-- Simple first person controller
-
-__Misc:__
-- Web scraping and processing
+This repository provides trivial examples for hackathon participants who are not experienced with certain CS topics, in hope of reducing
+their time spent on struggling to implement certain mechanism into their project.
 
 ## 引导 (中文)
 __计算机视觉：__
-- 物品识别（YOLO）
+- [物品识别（YOLO）](computer-vision/object-detection-yolo/)
 - 人脸识别（OpenCV）
 - 图片风格迁移
 
@@ -43,3 +23,23 @@ __游戏开发（Unity）：__
 
 __杂项：__
 - 网络爬虫
+
+## Quick Links (English)
+__Computer Vision:__
+- [Object detection with YOLO](computer-vision/object-detection-yolo/)
+- Face detection with OpenCV classifier
+- Style transfer with ImageNet
+
+__Natural Language Processing:__
+- Text generation with LSTM
+- Text classification with BERT (via Huggingface)
+
+__Speech/Voice Processing:__
+- 中文文字转语音
+- 中文语音转文字
+
+__Game Development (Unity):__
+- Simple first person controller
+
+__Misc:__
+- Web scraping and processing
