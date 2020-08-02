@@ -7,7 +7,7 @@ their time spent on struggling to implement certain mechanism into their project
 ## 引导 (中文)
 __计算机视觉：__
 - [物品识别（YOLO）](computer-vision/object-detection-yolo/)
-- 人脸识别（OpenCV）
+- [人脸识别（OpenCV）](computer-vision/face-detection-opencv/)
 - 图片风格迁移
 
 __自然语言处理：__
@@ -27,7 +27,7 @@ __杂项：__
 ## Quick Links (English)
 __Computer Vision:__
 - [Object detection with YOLO](computer-vision/object-detection-yolo/)
-- Face detection with OpenCV classifier
+- [Face detection with OpenCV classifier](computer-vision/face-detection-opencv/)
 - Style transfer with ImageNet
 
 __Natural Language Processing:__
