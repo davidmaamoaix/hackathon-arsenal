@@ -1,5 +1,5 @@
 # hackathon-arsenal
-Pedagogic demonstrations on implementations of popular concepts in Hackathons.
+Pedagogic demonstrations on implementations of popular concepts in TechX's Hackathon.
 
 This repository provides trivial examples for hackathon participants who are not experienced with certain CS topics, in hope of reducing
 their time spent on struggling to implement certain mechanism into their project.
