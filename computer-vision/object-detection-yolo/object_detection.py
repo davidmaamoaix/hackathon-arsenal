@@ -53,13 +53,11 @@ while True:
 	# outputs is a list of 3 numpy arrays, corresponding
 	# to the 3 output layers of YOLO
 	outputs = network.forward(output_layers)
+	outputs = np.vstack(outputs)
 
 	# each prediction entry contains 85 elements
 	# first 5 corresponds to (certer_x, center_y, width, height, confidence)
 	# the rest is a one hot encoding of the predicted classes
-	outputs = np.vstack(outputs)
-
-	# outputs = outputs[outputs[:, 4] > confidence_threshold]
 	predictions = np.argmax(outputs[:, 5:], axis=1)
 
 	# get dimension of image
