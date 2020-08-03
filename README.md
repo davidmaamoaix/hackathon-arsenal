@@ -19,7 +19,7 @@ __语音处理：__
 - 中文语音转文字
 
 __游戏开发（Unity）：__
-- 第一人称角色控制器
+- [第一人称角色控制器](game-developing/first-person-controller/)
 
 __杂项：__
 - 网络爬虫
@@ -39,7 +39,7 @@ __Speech/Voice Processing:__
 - 中文语音转文字
 
 __Game Development (Unity):__
-- Simple first person controller
+- [Simple first person controller](game-developing/first-person-controller/)
 
 __Misc:__
 - Web scraping and processing
